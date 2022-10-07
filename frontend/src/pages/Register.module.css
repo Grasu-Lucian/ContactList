@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  background-color: #2b2d42;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15vh;
+}
+.container input{
+  background-color: #edf2f4;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  color:black;
+font-size: 1.5rem;
+}
+.container input::placeholder{
+  color: black;
+}
+
+.box {
+  cursor: pointer;
+  background-color: #ef233c;
+  border: none;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 20px;
+    outline: none;
+  width: 50%;
+  align-self: center;
+  margin-top: 5px;
+}
+.register{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.hey{
+  outline: none;
+  width: 50%;
+  align-self: center;
+  margin-top: 5px;
+}
+.already{
+  color: white;
+  outline: none;
+  width: 50%;
+  align-self: center;
+  margin-top: 5px;
+   text-align: end;
+   margin-right: 10vw;
+}
+.reg{
+  margin-top: 10px;
+  transition: ease-in-out 0.20s;
+
+}
+.reg:hover{
+  background-color: #d90429;
+  transition: ease-in-out 0.20s;
+}
+.some1{
+  display: flex;
+  width: 50%;
+  align-self: center;
+}
+.some{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  margin-left: -5vw;
+  cursor: pointer;
+}

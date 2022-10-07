@@ -1,0 +1,41 @@
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+    width: 50%;
+    margin-top: 15px;
+}
+.box{
+font-size: 1.2rem;
+    background-color: #edf2f4;
+margin: 5px 0px;
+padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.view{
+
+}
+.add {
+    background-color: #ef233c;
+    border: none;
+    outline: none;
+    padding: 7.5px;
+    border-radius: 20px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  .add:hover{
+      background-color: #d90429;
+      
+  }

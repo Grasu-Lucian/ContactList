@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #8d99ae;
+}
+.name {
+  font-size: 2rem;
+}
+.box {
+  width: 50%;
+  display: flex;
+  padding: 5px 15px;
+  justify-content: space-between;
+}
+.box button {
+  background-color: #ef233c;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  width: 40%;
+}
+.box button:hover {
+  transition: ease-in-out 0.25s;
+  background-color: #d90429;
+}
+.container input {
+  margin-bottom: 5px;
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: white;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+}
+.container input::placeholder {
+  color: black;
+}
+.contact {
+  background-color: white;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+.options {
+  margin-top: 5px;
+}
+.go {
+  color: white;
+  width: 28%;
+align-self: flex-end;
+}

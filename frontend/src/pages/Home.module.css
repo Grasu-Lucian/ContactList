@@ -1,0 +1,11 @@
+.container{padding-bottom:25vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    height: 67.7vh;
+    color: white;
+}
+.background{
+    background-color: #8d99ae;
+}

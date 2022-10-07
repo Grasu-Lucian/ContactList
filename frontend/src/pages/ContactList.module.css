@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 25%;
+}
+.background {
+  background-color: #8d99ae;
+  min-height: 100vh;
+}
+.container input {
+  outline: none;
+  border: none;
+  padding: 7.5px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+.container input::placeholder {
+  color: black;
+}
+.title {
+  margin: 15px 0px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.add {
+  background-color: #ef233c;
+  border: none;
+  outline: none;
+  padding: 7.5px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.add:hover{
+    background-color: #d90429;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  margin-top: 25px;
+    width: 100vw;
+}
